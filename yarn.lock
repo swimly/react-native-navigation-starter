@@ -2725,13 +2725,17 @@ micromatch@^2.1.5, micromatch@^2.3.11:
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
 
-"mime-db@>= 1.29.0 < 2", mime-db@~1.29.0:
-  version "1.29.0"
-  resolved "http://registry.npm.taobao.org/mime-db/download/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
+"mime-db@>= 1.29.0 < 2":
+  version "1.30.0"
+  resolved "http://registry.npm.taobao.org/mime-db/download/mime-db-1.30.0.tgz#74c643da2dd9d6a45399963465b26d5ca7d71f01"
 
 mime-db@~1.23.0:
   version "1.23.0"
   resolved "http://registry.npm.taobao.org/mime-db/download/mime-db-1.23.0.tgz#a31b4070adaea27d732ea333740a64d0ec9a6659"
+
+mime-db@~1.29.0:
+  version "1.29.0"
+  resolved "http://registry.npm.taobao.org/mime-db/download/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
 
 mime-types@2.1.11:
   version "2.1.11"
@@ -3230,9 +3234,9 @@ react-devtools-core@2.3.1:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-navigation@^1.1.205:
-  version "1.1.205"
-  resolved "http://registry.npm.taobao.org/react-native-navigation/download/react-native-navigation-1.1.205.tgz#eb7ff639f97e7f5bde42f38d2b11b7a6ce06a2c0"
+react-native-navigation@alpha:
+  version "2.0.1985"
+  resolved "http://registry.npm.taobao.org/react-native-navigation/download/react-native-navigation-2.0.1985.tgz#2c133809201121a1b330fa6468491ebfb78f3bee"
   dependencies:
     lodash "4.x.x"
 

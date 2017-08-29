@@ -46,5 +46,6 @@ Navigation.startTabBasedApp({
     tabBarButtonColor: '#999',
     tabBarSelectedButtonColor: '#EB3D00',
     tabBarTranslucent: false,
+    forceTitlesDisplay: true
   }
 });

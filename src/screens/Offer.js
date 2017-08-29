@@ -3,19 +3,19 @@ import {
   View,
   Text
 }from 'react-native';
-export default class MeScreen extends Component {
+export default class OfferScreen extends Component {
   static navigatorStyle = {
-    navBarTextColor: '#fff',
-    navBarBackgroundColor: '#EB3D00',
-    statusBarColor:'#EB3D00',
+    navBarTextColor: '#666',
+    navBarBackgroundColor: '#FBFBFB',
+    statusBarColor:'#FBFBFB',
     topBarElevationShadowEnabled: false,
     navBarTitleTextCentered: true,
-    statusBarBlur: true
+    statusBarTextColorScheme: 'dark'
   }
   render () {
     return (
       <View>
-        <Text>首页</Text>
+        <Text>车险报价</Text>
       </View>
     )
   }

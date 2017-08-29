@@ -15,6 +15,20 @@ Navigation.startTabBasedApp({
       title: 'Screen One'
     },
     {
+      label: '电影',
+      screen: 'example.MovieScreen',
+      icon: require('./assets/images/nav2.png'),
+      selectedIcon: require('./assets/images/nav2_active.png'), // iOS only
+      title: 'Screen Two'
+    },
+    {
+      label: '音乐',
+      screen: 'example.MusicScreen',
+      icon: require('./assets/images/nav3.png'),
+      selectedIcon: require('./assets/images/nav3_active.png'), // iOS only
+      title: 'Screen Two'
+    },
+    {
       label: '我的',
       screen: 'example.MeScreen',
       icon: require('./assets/images/nav4.png'),

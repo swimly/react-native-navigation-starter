@@ -1,9 +1,8 @@
 package com.demo;
 
-// import com.facebook.react.ReactActivity;
-import com.reactnativenavigation.NavigationActivity;
+import com.reactnativenavigation.controllers.SplashActivity;
 
-public class MainActivity extends NavigationActivity {
+public class MainActivity extends SplashActivity {
 
     /**
      * Returns the name of the main component registered from JavaScript.

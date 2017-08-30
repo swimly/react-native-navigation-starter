@@ -4,6 +4,7 @@ import HomeScreen from './Home';
 import MeScreen from './Me';
 import CustomerScreen from './Customer';
 import OfferScreen from './Offer';
+import MessageScreen from './Message';
 
 // register all screens of the app (including internal ones)
 export function registerScreens() {
@@ -11,6 +12,7 @@ export function registerScreens() {
   Navigation.registerComponent('example.MeScreen', () => MeScreen);
   Navigation.registerComponent('example.CustomerScreen', () => CustomerScreen);
   Navigation.registerComponent('example.OfferScreen', () => OfferScreen);
+  Navigation.registerComponent('example.MessageScreen', () => MessageScreen);
 }
 export function registerScreenVisibilityListener() {
   new ScreenVisibilityListener({

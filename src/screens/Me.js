@@ -7,10 +7,7 @@ export default class MeScreen extends Component {
   static navigatorStyle = {
     navBarTextColor: '#fff',
     navBarBackgroundColor: '#EB3D00',
-    statusBarColor:'#EB3D00',
-    topBarElevationShadowEnabled: false,
-    navBarTitleTextCentered: true,
-    statusBarBlur: true
+    statusBarColor:'#EB3D00'
   }
   render () {
     return (

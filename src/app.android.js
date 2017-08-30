@@ -45,7 +45,19 @@ Navigation.startTabBasedApp({
     tabBarBackgroundColor:'#fbfbfb',
     tabBarButtonColor: '#999',
     tabBarSelectedButtonColor: '#EB3D00',
-    tabBarTranslucent: false,
-    forceTitlesDisplay: true
-  }
+    tabBarTranslucent: true,
+    forceTitlesDisplay: true,
+    navBarTextFontSize: 16,
+    navBarTransparent: false,
+    topBarElevationShadowEnabled: false,
+    navBarTextColor: '#666',
+    statusBarColor:'#FBFBFB',
+    navBarTitleTextCentered: true,
+    screenBackgroundColor: '#fff',
+    drawUnderNavBar: true,
+    drawUnderTabBar: true,
+    topBarBorderWidth:1,
+    topBarBorderColor: '#f00'
+  },
+  animationType: 'slide-down'
 });

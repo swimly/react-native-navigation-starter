@@ -3,22 +3,26 @@ import {
   View,
   Text,
   TouchableOpacity,
+  ScrollView,
   BackHandler,
   ToastAndroid
 }from 'react-native';
 var firstClick = 0;
 export default class HomeScreen extends Component {
   static navigatorStyle = {
-    navBarTextColor: '#666',
-    navBarBackgroundColor: '#FBFBFB',
     statusBarColor:'#FBFBFB',
-    topBarElevationShadowEnabled: false,
-    navBarTitleTextCentered: true,
     statusBarTextColorScheme: 'dark'
+  }
+  static navigatorButtons = {
+    rightButtons: [{
+      icon: require('../assets/images/homeRight.png'),
+      id: 'message'
+    }]
   }
   constructor (props) {
     super(props)
     console.log(this)
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this))
   }
   componentWillMount () {
     BackHandler.addEventListener('hardwareBackPress', this.handleBack);
@@ -36,22 +40,23 @@ export default class HomeScreen extends Component {
         return false;
     }
   }
-  jumpMessage () {
-    this.props.navigator.push({
-      screen: 'example.MessageScreen',
-      title: '消息',
-      animationType: 'slide_in_left'
-    })
+  onNavigatorEvent (event) {
+    if (event.type === 'NavBarButtonPress') {
+      if (event.id == 'message') {
+        this.props.navigator.push({
+          screen: 'example.MessageScreen',
+          title: '消息',
+          animationType: 'slide-horizontal'
+        })
+      }
+    }
   }
   render () {
     return (
-      <View>
-        <TouchableOpacity
-          onPress={()=>this.jumpMessage()}
-        >
-          <Text>消息</Text>
-        </TouchableOpacity>
-      </View>
+      <ScrollView
+      >
+        <Text>首页</Text>
+      </ScrollView>
     )
   }
 }

@@ -31,7 +31,7 @@
 ### 5、splashScreen
 ********
 ## app下载体验
-[下载地址](./android/app/build/outputs/apk/app-release.apk)
+[下载地址](../../android/app/build/outputs/apk/app-release.apk)
 
 ## 实现教程
 ### 1、安装react-native-navigation

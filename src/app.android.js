@@ -54,10 +54,9 @@ Navigation.startTabBasedApp({
     statusBarColor:'#FBFBFB',
     navBarTitleTextCentered: true,
     screenBackgroundColor: '#fff',
-    drawUnderNavBar: true,
-    drawUnderTabBar: true,
-    topBarBorderWidth:1,
-    topBarBorderColor: '#f00'
+    navBarBackgroundColor: '#fbfbfb',
+    navBarHeight: 50,
+    topTabsHeight: 50
   },
   animationType: 'slide-down'
 });

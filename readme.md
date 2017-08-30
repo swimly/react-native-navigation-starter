@@ -16,7 +16,7 @@
 	}
 ```
 ## 操作图例
-<img src="screenShorts/show.gif"/>
+<img src="./screenShorts/show.gif"/>
 
 ## 技术栈
 ### 1、react-native
